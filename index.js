@@ -70,6 +70,6 @@ function removeFromCart(item) {
  
 
 function placeOrder(cardNumber) {
-  console.log("Sorry we don't have a credit card on file for you.")
   cart.length = 0
+  console.log("Sorry we don't have a credit card on file for you.")
 }
